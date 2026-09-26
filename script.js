@@ -16,24 +16,43 @@
   var ALBUM = [
     { year: 2021, note: "", photos: [] },
     { year: 2022, note: "", photos: [] }, // oyhf.jpg 现在是首屏主视觉，之后也可以加到这里
-    { year: 2023, note: "", photos: [] },
+    {
+      year: 2023, note: "", photos: [
+        { src: "assets/2023/img_1157.jpg", date: "2023.10.29" },
+        { src: "assets/2023/img_0552.jpg", date: "2023.11.11" },
+        { src: "assets/2023/img_0781.jpg", date: "2023.12.02" }
+      ]
+    },
     {
       year: 2024, note: "", photos: [
         { src: "assets/2024/img_1162.jpg", date: "2024.01.06" },
         { src: "assets/2024/img_1655.jpg", date: "2024.02.15" },
+        { src: "assets/2024/img_1658.jpg", date: "2024.02.15" },
         { src: "assets/2024/img_4988.jpg", date: "2024.03.09" },
+        { src: "assets/2024/img_4986.jpg", date: "2024.03.09" },
         { src: "assets/2024/img_2656.jpg", date: "2024.04.03" },
         { src: "assets/2024/dsc01041.jpg", date: "2024.04.28" },
         { src: "assets/2024/img_8710.jpg", date: "2024.06.09" },
+        { src: "assets/2024/img_3882.jpg", date: "2024.07.16" },
+        { src: "assets/2024/img_3999.jpg", date: "2024.07.17" },
         { src: "assets/2024/img_4138.jpg", date: "2024.07.19" },
+        { src: "assets/2024/img_4192.jpg", date: "2024.07.20" },
+        { src: "assets/2024/img_4402.jpg", date: "2024.07.27" },
+        { src: "assets/2024/img_5309.jpg", date: "2024.09.30" },
         { src: "assets/2024/img_5447.jpg", date: "2024.10.06" },
-        { src: "assets/2024/img_6859.jpg", date: "2024.12.13" }
+        { src: "assets/2024/img_5480.jpg", date: "2024.10.06" },
+        { src: "assets/2024/img_5651.jpg", date: "2024.10.07" },
+        { src: "assets/2024/img_6859.jpg", date: "2024.12.13" },
+        { src: "assets/2024/img_6882.jpg", date: "2024.12.14" }
       ]
     },
     {
       year: 2025, note: "", photos: [
         { src: "assets/2025/img_7481.jpg", date: "2025.01.07" },
         { src: "assets/2025/img_7473.jpg", date: "2025.01.07" },
+        { src: "assets/2025/img_7577.jpg", date: "2025.01.11" },
+        { src: "assets/2025/img_7575.jpg", date: "2025.01.11" },
+        { src: "assets/2025/img_8651.jpg", date: "2025.04.02" },
         { src: "assets/2025/img_1259.jpg", date: "2025.09.19" }
       ]
     },
@@ -48,7 +67,8 @@
         { src: "assets/2026/img_5309.jpg", date: "2026.06.06" },
         { src: "assets/2026/img_0436.jpg", date: "2026.07.05" },
         { src: "assets/2026/img_6861.jpg", date: "2026.07.10" },
-        { src: "assets/2026/selfie.jpg", caption: "" }
+        { src: "assets/2026/selfie.jpg", caption: "" },
+        { src: "assets/2026/selfie-2.jpg", caption: "" }
       ]
     }
   ];
