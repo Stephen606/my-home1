@@ -17,9 +17,40 @@
     { year: 2021, note: "", photos: [] },
     { year: 2022, note: "", photos: [] }, // oyhf.jpg 现在是首屏主视觉，之后也可以加到这里
     { year: 2023, note: "", photos: [] },
-    { year: 2024, note: "", photos: [] },
-    { year: 2025, note: "", photos: [] },
-    { year: 2026, note: "", photos: [] }
+    {
+      year: 2024, note: "", photos: [
+        { src: "assets/2024/img_1162.jpg", date: "2024.01.06" },
+        { src: "assets/2024/img_1655.jpg", date: "2024.02.15" },
+        { src: "assets/2024/img_4988.jpg", date: "2024.03.09" },
+        { src: "assets/2024/img_2656.jpg", date: "2024.04.03" },
+        { src: "assets/2024/dsc01041.jpg", date: "2024.04.28" },
+        { src: "assets/2024/img_8710.jpg", date: "2024.06.09" },
+        { src: "assets/2024/img_4138.jpg", date: "2024.07.19" },
+        { src: "assets/2024/img_5447.jpg", date: "2024.10.06" },
+        { src: "assets/2024/img_6859.jpg", date: "2024.12.13" }
+      ]
+    },
+    {
+      year: 2025, note: "", photos: [
+        { src: "assets/2025/img_7481.jpg", date: "2025.01.07" },
+        { src: "assets/2025/img_7473.jpg", date: "2025.01.07" },
+        { src: "assets/2025/img_1259.jpg", date: "2025.09.19" }
+      ]
+    },
+    {
+      year: 2026, note: "", photos: [
+        { src: "assets/2026/img_2823.jpg", date: "2026.02.20" },
+        { src: "assets/2026/img_2892.jpg", date: "2026.02.22" },
+        { src: "assets/2026/img_5832.jpg", date: "2026.04.01" },
+        { src: "assets/2026/img_5913.jpg", date: "2026.04.02" },
+        { src: "assets/2026/img_6010.jpg", date: "2026.04.03" },
+        { src: "assets/2026/img_6599.jpg", date: "2026.04.05" },
+        { src: "assets/2026/img_5309.jpg", date: "2026.06.06" },
+        { src: "assets/2026/img_0436.jpg", date: "2026.07.05" },
+        { src: "assets/2026/img_6861.jpg", date: "2026.07.10" },
+        { src: "assets/2026/selfie.jpg", caption: "" }
+      ]
+    }
   ];
 
   var EMPTY_HINT = "这一年的照片，等你放进来";
